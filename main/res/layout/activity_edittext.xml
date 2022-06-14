@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帳號 : "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_blue"></TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="請輸入帳號"
+            android:textSize="16sp"
+            android:textColor="#8C9EFF"
+            android:textColorHint="#E08989"
+            android:textColorHighlight="#FFEE58"
+            android:inputType="text"
+            android:textScaleX="1.5"
+            android:ems="8"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="請輸入帳號"
+            android:textSize="16sp"
+            android:textColor="#8C9EFF"
+            android:textColorHint="#B2EBF2"
+            android:textColorHighlight="#FFEE58"
+            android:inputType="text"
+
+            ></EditText>
+        <!--ems最好配layout_width="wrap_content"
+            設定TextView或者Edittext的寬度為8個字元的寬度。-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密碼 : "
+            android:textSize="16sp"
+            android:textColor="#000000"
+            ></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="請輸入密碼"
+            android:textSize="16sp"
+            android:textColor="#8C9EFF"
+            android:textColorHint="#B2EBF2"
+            android:textColorHighlight="#FFEE58"
+            android:inputType="text"
+            ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="確認密碼: "
+            android:textSize="16sp"
+            android:textColor="#000000"
+            ></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="再次輸入密碼"
+            android:textSize="16sp"
+            android:textColor="#8C9EFF"
+            android:textColorHint="#B2EBF2"
+            android:textColorHighlight="#FFEE58"
+            android:inputType="text"
+            ></EditText>
+</LinearLayout>

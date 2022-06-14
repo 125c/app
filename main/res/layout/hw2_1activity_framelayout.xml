@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/a161"
+        android:layout_gravity="center"
+        android:scaleType="fitXY">
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="搜尋"
+        android:textSize="36sp"
+        android:textColorHint="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="世界如此殘酷，我依然愛你"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        />
+</FrameLayout>

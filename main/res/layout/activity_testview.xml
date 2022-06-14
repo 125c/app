@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="inherit"
+    android:visibility="visible">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6BE4FE"
+        android:text="這裡斜體"
+        android:textColor="#FF1CC2"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+    <!--rap_content跟文字同寬高match_parent跟父節點同寬高 sp才會隨顯示調整大小 其他用dp做單位-->
+    <!--layout_height：依需要使用的範圍給大小(wrap_content)、與版面高度一樣大小(match_parent)-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="#D1EEF4"
+        android:text="這裡粗體100dp寬20do高"
+        android:textColor="#490236"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    <!--layout_width如果改26會只有剩下一點點-->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="又粗又斜"
+        android:textSize="14dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoText="false"
+        android:background="#DE3939"
+        android:text="TextView1"
+        android:textColor="#DCDFEF" />
+
+</LinearLayout>

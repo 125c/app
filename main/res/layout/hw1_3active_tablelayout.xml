@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:text="遊戲名稱"
+            android:textColor="#f70707"
+            android:textSize="30sp"
+
+            />
+        <TextView
+            android:text="遊戲版本"
+            android:textColor="#00fd2a"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:text="系統"
+            android:textColor="#0004ff"
+            android:textSize="30sp"
+            android:background="#00ff22"
+            />
+    </TableRow>
+    <TableRow>
+    <TextView
+        android:text="英雄聯盟"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:text="Version 1.6.8"
+
+        />
+    <TextView
+        android:text="Andrio2.2"
+
+        />
+
+</TableRow>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_star_big_on"
+        android:background="#dddbde"
+        />
+    <TableRow>
+        <TextView
+            android:text="傳說對決"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:text="Version 1.8"
+            />
+        <TextView
+            android:text="Andrio4.0"
+            />
+    </TableRow>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="選擇"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+</TableLayout>

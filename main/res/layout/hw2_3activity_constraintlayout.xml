@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ConstraintLayout_01"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:src="@drawable/a600"
+        app:layout_constraintTop_toTopOf="@id/ConstraintLayout_01"
+        app:layout_constraintLeft_toLeftOf="@id/ConstraintLayout_01"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="184dp"
+        android:background="#FFF9C4"
+        android:text="上一張"
+        android:textColor="#0A8696"
+        app:layout_constraintBottom_toBottomOf="@id/ConstraintLayout_01"
+        app:layout_constraintLeft_toLeftOf="@id/ConstraintLayout_01" />
+
+    <Button
+        android:id="@+id/btn_cancel01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="184dp"
+        android:background="#FFF9C4"
+        android:text="下一張"
+        android:textColor="#0A8696"
+        app:layout_constraintBottom_toBottomOf="@id/ConstraintLayout_01"
+        app:layout_constraintRight_toRightOf="@id/ConstraintLayout_01" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="380dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="100dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_h_p"
+        android:orientation="horizontal"
+
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v_p"
+        android:orientation="vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_accunt"
+        android:background="#6BE4FE"
+        android:text="Account: "
+        android:textColor="#FF1CC2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/guideline_h"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_v"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_account"
+        android:hint="請輸入帳號"
+        android:textColorHint="#ffffff"
+        android:text=""
+        android:textSize="24sp"
+        app:layout_constraintLeft_toRightOf="@id/text_accunt"
+        app:layout_constraintBaseline_toBaselineOf="@id/text_accunt"
+        android:background="#6BE4FE"
+        /><!--app:layout_constraintBaseline_toBaselineOf 文字底部對文字底部-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_pw"
+        android:background="#6BE4FE"
+        android:text="PW: "
+        android:textColor="#FF1CC2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/text_accunt"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_v"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_pw"
+        android:hint="請輸入密碼"
+        android:textColorHint="#ffffff"
+        android:text=""
+        android:textSize="24sp"
+        app:layout_constraintLeft_toRightOf="@id/text_pw"
+        app:layout_constraintBottom_toBottomOf="@id/text_pw"
+        app:layout_constraintBaseline_toBaselineOf="@id/text_pw"
+        android:background="#6BE4FE"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

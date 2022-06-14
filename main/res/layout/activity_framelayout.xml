@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/capoo2"
+    android:foregroundGravity="bottom|center"
+    >
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="#F1D6D6"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="#FFF59D"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="#C5E1A5"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#80DEEA"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/capoo"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>

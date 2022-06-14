@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="喜歡……？"
+    android:textSize="16sp"
+    android:textStyle="bold"
+></TextView>
+<CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.桌遊"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:button="@drawable/forcheckbox"
+        android:layout_marginBottom="6dp"
+></CheckBox>
+<CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.BV"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:button="@drawable/forcheckbox"
+        android:layout_marginBottom="6dp"
+></CheckBox>
+<CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.長板"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:button="@drawable/forcheckbox"
+        android:layout_marginBottom="6dp"
+></CheckBox>
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="愛吃？"
+        android:textSize="16sp"
+        android:textStyle="bold"
+></TextView>
+<CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.沙茶"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:button="@drawable/forcheckbox"
+        android:layout_marginBottom="6dp"
+></CheckBox>
+<CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.火鍋"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:button="@drawable/forcheckbox"
+        android:layout_marginBottom="6dp"
+></CheckBox>
+<CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.NAMA"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:button="@drawable/forcheckbox"
+></CheckBox>
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="確定ㄇ？"
+        android:textColor="#000000"
+        android:background="@drawable/btn_pressed"
+        android:textAlignment="inherit"
+        android:layout_gravity="center"
+        >
+    </Button>
+</LinearLayout>
